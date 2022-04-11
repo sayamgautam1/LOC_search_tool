@@ -1,0 +1,27 @@
+:root {
+  --primary: rgb(114, 114, 127);
+  --secondary: rgb(90, 134, 134);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+legend {
+  text-align: center;
+}
+
+body {
+  margin-top: 3em;
+  background-color: var(--primary);
+}
+.formbox {
+  background-color: var(--secondary);
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 1em;
+}
+button {
+  width: 100%;
+}
